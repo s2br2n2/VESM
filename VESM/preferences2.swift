@@ -9,7 +9,34 @@ import SwiftUI
 
 struct preferences2: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Spacer()
+            Text("What media do you prefer?")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding(.top, -50.0)
+            Spacer()
+            
+            HStack {
+              Spacer()
+                Button("Movies") {}
+                Spacer()
+                Button("Books") {}
+                Spacer()
+                Button("TV Series") {}
+                Spacer()
+                
+            }
+            .padding(.top, -15.0)
+            Spacer()
+            
+            NavigationLink(destination:preferences3()) {
+                Text("Next→")
+            }
+            Spacer()
+        }
+     
+
     }
 }
 
