@@ -11,11 +11,12 @@ struct preferences1: View {
     var body: some View {
         NavigationStack {
             VStack {
+                Spacer()
                 Text("What genres do you prefer?")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
-                    .padding(.top, -150.0)
+                    .padding(.top, -50.0)
                 
                 HStack{
                     Spacer()
@@ -28,6 +29,7 @@ struct preferences1: View {
                     Spacer()
                 }
                 .padding(.bottom, 20.0)
+                .padding(.top, 40.0)
                 HStack{
                     Spacer()
                     Button("Fantasy"){}
@@ -46,12 +48,18 @@ struct preferences1: View {
                     Spacer()
                     Button("Mystery"){}
                     Spacer()
-                        
+                }
+                    
+                    NavigationLink(destination: preferences2()) {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Next→")
+                            .padding(.top)/*@END_MENU_TOKEN@*/
+                    }
+                    .padding(50.0)
+                Spacer()
                 }
             }
         }
     }
-}
 
 struct preferences1_Previews: PreviewProvider {
     static var previews: some View {
