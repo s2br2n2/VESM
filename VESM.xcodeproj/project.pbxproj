@@ -14,6 +14,8 @@
 		BDB705E52A78FB620077C5D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB705E42A78FB620077C5D9 /* Assets.xcassets */; };
 		BDB705E82A78FB620077C5D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB705E72A78FB620077C5D9 /* Preview Assets.xcassets */; };
 		BDB711E42A794A9B0038DA58 /* preferences3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB711E32A794A9B0038DA58 /* preferences3.swift */; };
+		BDC8B37A2A7A4F3E00CCF618 /* preferences4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC8B3792A7A4F3E00CCF618 /* preferences4.swift */; };
+		BDC8B37E2A7A54EC00CCF618 /* recommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC8B37D2A7A54EC00CCF618 /* recommendations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		BDB705E42A78FB620077C5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDB705E72A78FB620077C5D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDB711E32A794A9B0038DA58 /* preferences3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preferences3.swift; sourceTree = "<group>"; };
+		BDC8B3792A7A4F3E00CCF618 /* preferences4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preferences4.swift; sourceTree = "<group>"; };
+		BDC8B37D2A7A54EC00CCF618 /* recommendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recommendations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				BD6AE4AD2A7919320004DD37 /* preferences1.swift */,
 				BD6AE4AF2A791F1E0004DD37 /* preferences2.swift */,
 				BDB711E32A794A9B0038DA58 /* preferences3.swift */,
+				BDC8B3792A7A4F3E00CCF618 /* preferences4.swift */,
+				BDC8B37D2A7A54EC00CCF618 /* recommendations.swift */,
 				BDB705E42A78FB620077C5D9 /* Assets.xcassets */,
 				BDB705E62A78FB620077C5D9 /* Preview Content */,
 			);
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB705E32A78FB600077C5D9 /* ContentView.swift in Sources */,
+				BDC8B37A2A7A4F3E00CCF618 /* preferences4.swift in Sources */,
 				BD6AE4B02A791F1E0004DD37 /* preferences2.swift in Sources */,
+				BDC8B37E2A7A54EC00CCF618 /* recommendations.swift in Sources */,
 				BD6AE4AE2A7919320004DD37 /* preferences1.swift in Sources */,
 				BDB711E42A794A9B0038DA58 /* preferences3.swift in Sources */,
 				BDB705E12A78FB600077C5D9 /* VESMApp.swift in Sources */,
