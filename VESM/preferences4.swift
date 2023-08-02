@@ -10,6 +10,7 @@ import SwiftUI
 struct preferences4: View {
     var body: some View {
         VStack {
+            Spacer()
             Text("And finally, what streaming platforms do you have access to?").font(.title)
                 .fontWeight(.bold)
                 .padding(.bottom, 230)
@@ -33,8 +34,15 @@ struct preferences4: View {
             }
             .padding(.top, -96)
             
-            NavigationLink(destination:recommendations()) {Text("Go to your' results!→")
+            HStack {
+                NavigationLink(destination:recommendations()) {Text("⇥")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                }
             }
+            
+            Spacer()
+            Text("Find your' results on the next page!")
             
         }.padding(30.0)
     }

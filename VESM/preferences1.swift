@@ -51,7 +51,9 @@ struct preferences1: View {
                 }
                     
                     NavigationLink(destination: preferences2()) {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Next→")
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("⇥")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
                             .padding(.top)/*@END_MENU_TOKEN@*/
                     }
                     .padding(50.0)

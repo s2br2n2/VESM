@@ -30,8 +30,13 @@ struct preferences2: View {
             .padding(.top, -15.0)
             Spacer()
             
-            NavigationLink(destination:preferences3()) {
-                Text("Next→")
+            HStack {
+        
+                NavigationLink(destination: preferences3()) {
+                    Text("⇥")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                }
             }
             Spacer()
         }
