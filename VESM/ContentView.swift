@@ -14,7 +14,7 @@ struct ContentView: View {
                 Color(red: 245/255, green: 198/255, blue: 0.85)
                     .ignoresSafeArea()
                 VStack {
-                    Text("WELCOME TO")
+                    Text("WELCOME TO ")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                     
